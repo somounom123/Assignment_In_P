@@ -1,3 +1,15 @@
 # Assignment_In_P
 
-Befor you create new brand you should pull lastes code form develop after create your new brancd 
+* Process of work on git 
+ - Befor you create new branch you should pull last code form develop after create your new branch.
+ - After you finist your feature plase push it.
+ - Make pullResquest to develop branch.
+
+* Code Process 
+  - HTML
+  - CSS
+  - Boostript 
+  - Javascript 
+
+
+
