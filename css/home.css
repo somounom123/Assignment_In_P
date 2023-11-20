@@ -1,3 +1,260 @@
-h1{
-   color: darkcyan;
+/* Define a CSS variable for the primary color */
+:root {
+  --primary-color: #8DCA3F;
+  --light-gray: #f2f2f2; 
 }
+body {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 12px !important;
+}
+
+.sticky-element {
+  position: sticky !important;
+  top: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  z-index: 3;
+}
+
+.fa {
+  font-size: 16px !important;
+}
+ 
+table,
+th,
+td {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color:#000;
+}
+ul li:hover {
+  background: var(--light-gray);
+}
+
+.menu,
+.main-contain,
+.footer {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container {
+  box-sizing: border-box;
+  width: 65%;
+}
+.header {
+  padding: 0;
+  height: 30px;
+}
+
+.bolder {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+hr {
+  height: 4px; /* Adjust the height as needed */
+  background-color: var(--primary-color); /* Change the color if desired */
+  border: none; /* Remove the default border */
+}
+
+.card-modal {
+  width: 50vh;
+  background: #000;
+  text-align: center;
+  padding: 20px;
+}
+.btn-group {
+  width: 100%;
+  border-radius: 0;
+}
+.btn {
+  border-radius: 0;
+}
+.banner {
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-menu {
+  display: flex;
+}
+.navbar {
+  padding: 0;
+  margin: 0;
+}
+button {
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  padding: 0;
+}
+.add-btn {
+  background-color: var(--primary-color) !important;
+  color: #FFF;
+  border-radius: 0;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  padding: 20px;
+}
+.currency {
+  background-color: var(--primary-color);
+  margin-right: 20px;
+}
+.chevron-right,
+.chevron-left {
+  z-index: 2;
+  background: #FFF;
+  color: #000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.chevron-right {
+  margin-left: -40px;
+}
+.chevron-left {
+  margin-right: -40px;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+  font-size: 24px !important;
+}
+
+.flex-item {
+  width: 250px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.dropdown-item:active {
+  background: var(--light-gray);
+  color: #000;
+}
+
+.bg-gray {
+  background: var(--light-gray);
+}
+small{
+  font-size: 10px;
+}
+.card-footer {
+  background: transparent;
+}
+.image-with-overlay {
+  position: relative;
+  width: 100%;
+}    
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+}
+
+.location-card,
+.development-card {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+}
+
+.card {
+  border-radius: 0;
+}
+
+.card-img-overlay,
+.card-img-top {
+  border-radius: 0;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card-description {
+  color: gray;
+}
+
+.btn-view-more {
+  border-radius: 0;
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+.rounded-circle {
+  border: 1px solid;
+}
+
+.fa-star {
+  color: gold;
+  font-size: 20px !important;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+  .menu,
+  .main-contain,
+  .footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .container {
+    box-sizing: border-box;
+    width: 80%;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

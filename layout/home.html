@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Element Example</title>
+  <style>
+    .content {
+      height: 1000px;
+      /* position: relative; */
+    }
+
+    .sticky-element {
+      position: sticky;
+      top: 0;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-    <table >
-    </table>
-    
+  <div class="content">
+    <div class="sticky-element">
+      This element will stick to the top when scrolled.
+    </div>
+    <!-- Add more content below to create a scrollable area -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod mauris ac turpis sodales, eget efficitur mi consequat. Nulla facilisi. Sed quis purus ultricies, luctus orci id, vehicula mi. Phasellus id metus nec mauris volutpat volutpat. Quisque vestibulum enim sit amet aliquet tincidunt. Morbi eu odio eget lorem convallis consectetur. Vivamus quis elit a ex dictum malesuada. Proin bibendum enim et urna pellentesque, vitae venenatis nisl accumsan. Nunc a odio sed ex posuere pharetra.</p>
+    <!-- Add more content here -->
+  </div>
 </body>
 </html>
