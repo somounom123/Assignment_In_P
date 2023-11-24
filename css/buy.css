@@ -1,7 +1,36 @@
-/* .buy-wrapper{
-    margin-top:10px;
-} */
-
+body{
+    background-color: #fff;
+}
+.buy-wrap{
+    width: 800px;
+    margin: 2rem;
+}
+.buy-title-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy-search>button{ height: 6vh;}
+.sale-map-view{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.map-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.map{
+    margin-right:5px;
+}
+.map>button{
+   height: 6vh; 
+}
+.view>select{
+    height: 6vh;
+}
+/* card block */
 .car-wrapper{
     margin: 2rem;
     width: 800px;
@@ -35,6 +64,8 @@
     align-items: center;
 }
 
+.heard-icon>i:hover{color: chartreuse;  }
+
 /* body card */
 .body-wrap{
     width: 800px;
@@ -56,19 +87,22 @@
     padding-left: 5px;  
 }
 .featured{
-    background-color: aqua;
+    background-color: green;
     width: 100px;
     text-align: center;
+    color: whitesmoke;
 }
 .for-sale{
-    background-color: rgb(185, 202, 202);
+    background-color: rgb(139, 151, 151);
     width:95px;
     text-align: center;
+    color: whitesmoke;
 }
 .frice-reduced{
-    background-color: rgb(119, 191, 191);
+    background-color: rgb(84, 172, 172);
     width: 140px;
     text-align: center;
+    color: whitesmoke;
 }
 /* text block of card */
 .text-wrap{
