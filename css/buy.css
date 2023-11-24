@@ -1,3 +1,126 @@
-.buy-wrapper{
+/* .buy-wrapper{
     margin-top:10px;
+} */
+
+.car-wrapper{
+    margin: 2rem;
+    width: 800px;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.car-wrapper:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* card head */
+.heard-wrap{
+    width: 800px;
+    height: 6vh;
+    background-color: rgb(58, 91, 126);
+    display: flex;
+    justify-content: center;
+}
+.heard-title{
+    padding-left: 20px;
+    width: 750px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.heard-icon{
+    width: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/* body card */
+.body-wrap{
+    width: 800px;
+    height: 44vh;
+    display: flex;
+    justify-content: space-between;
+}
+/* image block of card */
+.image-wrap{
+    width: 400px;
+    height: 44vh;
+}
+.image > img{
+    height: 44vh;
+    position: absolute;
+}
+.text-on-img{
+    position: relative;
+    padding-left: 5px;  
+}
+.featured{
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+}
+.for-sale{
+    background-color: rgb(185, 202, 202);
+    width:95px;
+    text-align: center;
+}
+.frice-reduced{
+    background-color: rgb(119, 191, 191);
+    width: 140px;
+    text-align: center;
+}
+/* text block of card */
+.text-wrap{
+    width: 400px;
+    height: 44vh;
+}
+/* title price  */
+.title_price{
+    width:400px;
+    height: 9vh;
+    display:flex;
+    justify-content:space-between;
+}
+.title{
+    width:300px;
+    height:5vh;
+} 
+.price{
+    width:100px;
+    height:5vh;
+ }
+/* location room */
+.location-room{ 
+    width: 400px;
+    height:25vh;
+}
+/* phone number and contact  */
+.tel-contact{
+    width:400px;
+    height: 7vh;
+    display:flex;
+    justify-content:space-between;
+}
+.tel{
+   width: 150px;
+   height: 5vh;
+   border-style: solid;
+   border-color: rgb(90, 239, 125);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contact{
+    width: 150px;
+    height: 6vh;
+    margin-right: 20px;
+    background-color: rgb(107, 242, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tel:hover,.contact:hover{
+    opacity: 0.8;
 }
