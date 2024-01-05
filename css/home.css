@@ -2,6 +2,7 @@
 :root {
   --primary-color: #8DCA3F;
   --light-gray: #f2f2f2; 
+  --dark-gray: #333333; 
 }
 body {
   width: 100%;
@@ -208,6 +209,9 @@ button {
 .bg-gray {
   background: var(--light-gray);
 }
+.bg-dark-gray {
+  background: var(--dark-gray);
+}
 small{
   font-size: 10px;
 }
@@ -362,5 +366,11 @@ small{
   }
   .hidden-lg {
     display: none !important;
+  }
+  .hidden-small {
+    display: none !important;
+  }
+  .show-small {
+    display: block !important;
   }
 }
