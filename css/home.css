@@ -80,6 +80,9 @@ ul li:hover {
   background-color: var(--primary-color); /* Change the color if desired */
   border: none; /* Remove the default border */
 }
+.bl-green {
+  border-left: 4px solid var(--primary-color);
+}
 .card-modal {
   top: 40%;
   width: 80vh;
@@ -88,7 +91,7 @@ ul li:hover {
   padding: 20px;
   position: relative;
 }
-.slide {
+.form-slide {
   /* position: absolute; */
   display: flex;
 }
@@ -302,7 +305,7 @@ small{
   .container {
     width: 90%;
   }
-  .slide {
+  .form-slide {
     display: none;
   }
   .banner-slide {
@@ -329,7 +332,7 @@ small{
   .container {
     width: 100%;
   }
-  .slide {
+  .form-slide {
     display: none;
   }
   .banner-slide {
@@ -347,7 +350,7 @@ small{
   .header {
     display: none;
   }
-  .slide {
+  .form-slide {
     display: none;
   }
   .bg-success {
